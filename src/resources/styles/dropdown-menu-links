@@ -1,0 +1,10 @@
+nav.{{CLASSNAME}} li.active a {
+	color:{{ACTIVE_COLOR}};
+}
+
+nav.{{CLASSNAME}} a {
+	color:{{SECONDARY_COLOR}};
+}
+nav.{{CLASSNAME}} a:hover {
+	color:{{ACTIVE_COLOR}};
+}

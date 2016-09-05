@@ -1,0 +1,41 @@
+nav.{{CLASSNAME}} ul ul {
+	display:none;
+	position:absolute;
+	top:100%;
+	padding:0;
+}
+
+nav.{{CLASSNAME}} ul li:hover > ul {
+	display:block;
+}
+
+nav.{{CLASSNAME}} ul {
+	list-style:none;
+	position:relative;
+	display:inline-table;
+}
+
+nav.{{CLASSNAME}} ul:after {
+	content:"";
+	clear:both;
+	display:block;
+}
+
+nav.{{CLASSNAME}} ul li {
+	float:left;
+}
+
+nav.{{CLASSNAME}} ul li a {
+	display:block;
+	text-decoration:none;
+}
+
+nav.{{CLASSNAME}} ul ul li {
+	float:none;
+}
+
+nav.{{CLASSNAME}} ul ul ul {
+	position:absolute;
+	left:100%;
+	top:0;
+}

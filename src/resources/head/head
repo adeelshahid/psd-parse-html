@@ -1,0 +1,9 @@
+<head>
+	
+	<title>{{TITLE}}</title>
+	
+	{{META_TAGS}}
+	
+	{{STYLESHEETS}}
+	{{SCRIPTS}}
+</head>

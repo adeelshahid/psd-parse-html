@@ -1,0 +1,7 @@
+@font-face {
+	font-family: '{{FONTFAMILY_NAME}}';
+	src: url('../fonts/{{FONTFAMILY_NAME}}/{{FONTNAME}}.eot');
+	src: local(' '), url('../fonts/{{FONTFAMILY_NAME}}/{{FONTNAME}}.woff') format('woff'), url('../fonts/{{FONTFAMILY_NAME}}/{{FONTNAME}}.ttf') format('truetype'), url('../fonts/{{FONTFAMILY_NAME}}/{{FONTNAME}}.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
